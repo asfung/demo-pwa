@@ -29,6 +29,5 @@
 "vue-router": "^4.2.5"
 ```
 
-### Framework
-<!-- <p><img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/opt_bd_nuxjs_thumbnail.jpg" /></p> -->
-[![Nuxt banner](./.github/assets/banner.svg)](https://nuxt.com)
+### Framework 
+<p><img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/nuxt-black-dashboard/opt_bd_nuxjs_thumbnail.jpg" /></p>
