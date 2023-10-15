@@ -45,6 +45,15 @@ export default defineNuxtConfig({
     devOptions: {
       enabled: true,
     }
+  },
+
+  // composable
+  imports: {
+    dirs: [
+      'composables',
+      'composables/*/index.{ts,js,mjs,mts}',
+      'composables/**',
+    ]
   }
    
 
