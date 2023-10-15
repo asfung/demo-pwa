@@ -1,8 +1,6 @@
-<script setup>
-  import Home from './src/pages/home/App.vue'
-</script>
-
 <template>
+  <div>
     <VitePwaManifest />
-    <Home />
+      <NuxtPage />
+  </div>
 </template>
