@@ -2,7 +2,8 @@
 
 <!-- ![image](https://github.com/straufer/React-Spring-boot/blob/main/image-nuxtjs.png?raw=true) -->
 
-<p><img src="https://github.com/straufer/React-Spring-boot/blob/main/image-nuxtjs.png?raw=true"/></p>
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/gambar1.png?raw=true"/></p>
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/gambar2.png?raw=true"/></p>
 
 <details>
     <summary>System Info</summary>
