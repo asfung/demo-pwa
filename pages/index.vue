@@ -1,5 +1,5 @@
 <script setup>
-    import NavbarAdikADik from '../components/Navbar.vue'
+    import NavbarAdikADik from '../components/Header.vue'
 </script>
 
 <template>
