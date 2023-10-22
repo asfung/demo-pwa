@@ -10,7 +10,7 @@
 <template>
     <section class="bg-white shadow-xl rounded-xl overflow-hidden">
         <div :class="`w-full h-[200px] p-5 bg-gray-300`">
-            <img :src="props.product.image" class="w-full h-full object-contain h-auto w-auto"/>
+            <img :src="props.product.image" class="w-full h-full object-contain"/>
         </div>
         <div class="px-5 pb-5 pt-9 relative">
             <NuxtLink :to="`/product/${props.product.id}`" ><h3 class="text-lg font-
