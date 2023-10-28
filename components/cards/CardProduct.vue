@@ -45,9 +45,9 @@ const addCart = () => {
       </div>
       <div
         :class="`cursor-pointer absolute -top-5 right-7 w-[50px] h-[50px]
-${oneProduct.isCart ? 'bg-blue-600 text-white' : 'bg-white'} shadow-xl
+${oneProduct.isCart ? 'bg-slate-600 text-white' : 'bg-white'} shadow-xl
 
-rounded-full flex justify-center items-center hover:bg-blue-600 hover:text-
+rounded-full flex justify-center items-center hover:bg-slate-500 hover:text-
 white transition duration-300`"
         @click="addCart"
       >

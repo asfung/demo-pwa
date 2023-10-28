@@ -35,11 +35,11 @@ const props = defineProps({
             +
           </button>
         </div>
-        <div class="flex items-center gap-2 border border-gray-300 px-3 py-2 rounded-
-          full cursor-pointer" @click="$emit('removeCart', props.product.id)">
+        <div class="flex items-center gap-2 px-3 py-2 rounded-
+          full cursor-pointer bg-white rounded-md hover:bg-red-300 border border-red-500" @click="$emit('removeCart', props.product.id)">
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7 6V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5Zm2-2v2h6V4H9Z"/></svg>
-          <span class="text-sm text-gray-500">Delete</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#f01707" d="M7 6V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5Zm2-2v2h6V4H9Z"/></svg>
+          <span class="text-red-500 font-bold ">Delete</span>
           
           </div>
       </div>
