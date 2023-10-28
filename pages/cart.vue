@@ -72,7 +72,7 @@ const removeCart = (id: number) => {
             <span class="text-base font-bold">${{ totalPrice }}</span>
           </div>
           <button
-            class="bg-blue-600 text-white text-base font-bold w-full py-2 rounded-lg"
+            class="bg-slate-700 text-white text-base font-bold w-full py-2 rounded-lg hover:bg-slate-500"
           >
             Checkout
           </button>

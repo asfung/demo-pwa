@@ -29,7 +29,7 @@
         <div class="mb-6 flex justify-end gap-6">
           <Dropdown @selected-category="selectedCategory = $event" />
           <NuxtLink to="/category/create" class="bg-slate-700 text-white flex justify-
-          center items-center px-3 rounded-lg">Create New Category</NuxtLink>
+          center items-center px-3 rounded-lg hover:bg-slate-500">Create New Category</NuxtLink>
         </div>
         <div class="flex gap-6 flex-wrap mx-auto">
           <template v-for="(item, index) in allProducts" :key="index">
