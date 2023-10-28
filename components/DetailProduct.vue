@@ -1,4 +1,7 @@
 <script setup lang="ts">
+
+import { ProductsType } from "~/types/ProductsType";
+
 const props = defineProps({
   product: {
     type: Object,
@@ -6,28 +9,25 @@ const props = defineProps({
   },
 });
 
+  const oneProduct = ref(props.product);
 
-function geohot(){
-  if (props.product.id === 4) {
-    return "u cant buy it!!";
-  }else{
-    return "Add to Card"
+  const addCart = () => {
+  oneProduct.value.isCart = !oneProduct.value.isCart;
+  let localStorageData = localStorage.getItem("products");
+  let productOfCart: ProductsType[] = [];
+  if (localStorageData) {
+    productOfCart = JSON.parse(localStorageData);
   }
-}
-
-const addCartStyle = computed(() => {
-  const styles = {};
-
-  if (props.product.id === 4) {
-    // just dont care to the code below
-    styles.color = 'white';
-    styles.fontWeight = 'bold';
-    styles.backgroundColor = 'red';
-    styles.cursor = 'not-allowed';
+  if (oneProduct.value.isCart) {
+    productOfCart.push(oneProduct.value);
+    localStorage.setItem("products", JSON.stringify(productOfCart));
+  } else {
+    productOfCart = productOfCart.filter(
+      (item) => item.id !== oneProduct.value.id
+    );
+    localStorage.setItem("products", JSON.stringify(productOfCart));
   }
-
-  return styles;
-});
+};
 
 </script>
 
@@ -55,10 +55,10 @@ const addCartStyle = computed(() => {
           <div class="flex flex-col gap-4">
             <div
               class="w-full flex items-center gap-2 bg-slate-700 text-white py- 3 justify-center rounded-lg cursor-pointer hover:bg-slate-600/80 transition duration-300 relative h-11 font-bold"
-              :style="addCartStyle"
+              @click="addCart"
               >
               <i class="ri-shopping-cart-2-line"></i>
-              <span>{{ geohot() }}</span>
+              <span>Add to Cart</span>
             </div>
           </div>
         </div>

@@ -7,7 +7,9 @@ const props = defineProps({
     default: {},
   },
 });
+
 const oneProduct = ref(props.product);
+
 const addCart = () => {
   oneProduct.value.isCart = !oneProduct.value.isCart;
   let localStorageData = localStorage.getItem("products");
@@ -25,6 +27,7 @@ const addCart = () => {
     localStorage.setItem("products", JSON.stringify(productOfCart));
   }
 };
+
 </script>
 
 <template>
