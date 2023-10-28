@@ -5,6 +5,9 @@ const route = useRoute();
 const id =
   typeof route.params.id === "string" ? parseInt(route.params.id) : null;
 const product = ref(products.find((item: ProductsType) => item.id === id));
+
+document.title = `${product.value?.name} | ${product.value?.description}`;
+
 </script>
 
 <template>

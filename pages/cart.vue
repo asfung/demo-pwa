@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 import { ProductsType } from "~/types/ProductsType";
 import navbar from '~/components/Header.vue';
-import footer from '~/components/Footer.vue'
+import footer from '~/components/Footer.vue';
+
+document.title = "Cart";
 
 const products = ref<ProductsType[]>([]);
 const totalPrice = computed(() => {

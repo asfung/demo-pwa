@@ -1,6 +1,8 @@
 <script lang="ts" setup>
   import navbar from "~/components/Header.vue";
   import footer from "~/components/Footer.vue";
+
+  document.title = "Create New Category";
 </script>
 
 <template>
