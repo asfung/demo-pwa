@@ -10,6 +10,7 @@ const props = defineProps({
 });
 
   const oneProduct = ref(props.product);
+  const isShowAlert = ref(false);
 
   const addCart = () => {
   oneProduct.value.isCart = !oneProduct.value.isCart;
@@ -27,6 +28,14 @@ const props = defineProps({
     );
     localStorage.setItem("products", JSON.stringify(productOfCart));
   }
+  isShowAlert.value = true;
+    const form = ref({
+      name: "",
+    });
+    form.value.name = "";
+    setTimeout(() => {
+      isShowAlert.value = false;
+    }, 10000);
 };
 
 </script>
@@ -40,6 +49,11 @@ const props = defineProps({
         <i class="ri-arrow-left-s-line text-base font-medium"></i>
         <span class="text-base font-medium">Kembali</span>
       </NuxtLink>
+      <div
+        v-if="isShowAlert"
+        class="p-4 mb-4 text-sm rounded-lg bg-green-100 text-green-800">
+        Successfully Adding To Cart
+      </div>
       <div class="flex items-center">
         <div
           class="w-1/2 bg-gray-300 mr-5 rounded-3xl flex justify-center items- center p-5 h-[500px]">
