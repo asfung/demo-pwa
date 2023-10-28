@@ -3,9 +3,8 @@
 <!-- ![image](https://github.com/straufer/React-Spring-boot/blob/main/image-nuxtjs.png?raw=true) -->
 
 <p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_4/gambar1.png?raw=true"/></p>
-<!-- <p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_4/gambar2.png?raw=true"/></p> -->
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_4/gambar2.png?raw=true"/></p>
 <p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_4/gambar3.png?raw=true"/></p>
-<!-- <p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_3/gambar3.png?raw=true"/></p> -->
 
 <details>
     <summary>System Info</summary>
