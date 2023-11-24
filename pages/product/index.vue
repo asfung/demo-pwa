@@ -28,6 +28,9 @@
 // 2. fix the undefined variable, (problem: get value variable didnt declared scope)
 // 3. detail product showed on path variable by id
 
+definePageMeta({
+  middleware: ["user-access"]
+});
 
 </script>
 
