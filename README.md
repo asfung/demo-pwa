@@ -1,4 +1,4 @@
-## Web App With PWA
+## Web App With PWA [DONE]
 
 <!-- ![image](https://github.com/straufer/React-Spring-boot/blob/main/image-nuxtjs.png?raw=true) -->
 
