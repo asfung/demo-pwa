@@ -2,10 +2,19 @@
 
 <!-- ![image](https://github.com/straufer/React-Spring-boot/blob/main/image-nuxtjs.png?raw=true) -->
 
-<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_6/gambar1.png?raw=true"/></p>
-<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_6/gambar2.png?raw=true"/></p>
-<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_6/gambar3.png?raw=true"/></p>
-<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_6/gambar6.png?raw=true"/></p>
+## Login
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_7/gambar1.png?raw=true"/></p>
+
+## Register
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_7/gambar2.png?raw=true"/></p>
+
+## Details Product
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_7/gambar3.png?raw=true"/></p>
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_7/gambar4.png?raw=true"/></p>
+
+## Cart
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_7/gambar5.png?raw=true"/></p>
+<p><img src="https://github.com/straufer/demo-pwa/blob/main/gambar/pertemuan_7/gambar6.png?raw=true"/></p>
 
 <details>
     <summary>System Info</summary>
